@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    /* background-color: rgba(170, 170, 170, 1); */
+}
+/* navigation styles */
+.nav-bar{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90px;
+    display: flex;
+align-items: center;
+}
+.nav-heading{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+}
+/* landing page styles */
+.landing-page{
+    display: flex;
+    flex-direction: row;
+}
+.left-blog{
+    width: 50%;
+    width: 582px;
+    height: 270px;
+    padding: 0 60px;
+}
+.landing-photo{
+    width: 50%;
+}
+.left-blog h1{
+    font-weight: bold;
+font-size: 52px;
+line-height: 70px;
+}
+.left-blog p{
+    font-size: 16px;
+line-height: 24px;
+}
+.landing-photo img{
+    width: 440px;
+height: 414px;
+}
+.button{
+    background-color: #E02C6D;
+    color: whitesmoke;
+    border-radius: 40px;
+    width: 196px;
+height: 44px;
+outline: 0;
+border: 0;
+}
+.fas{
+    padding-left: 10px;
+}
