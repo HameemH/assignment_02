@@ -110,6 +110,8 @@ line-height: 24px;
     margin: 0 auto;
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
+    border: 2px;
 }
 .membership-statement{
     width: 50%;
@@ -117,6 +119,9 @@ line-height: 24px;
 .membership-form{
     width: 50%;
     align-items: center;
+}
+.membership-form form{
+    padding: 10px 0px 8px 40px;
 }
 /* footer styles */
 footer{
@@ -202,13 +207,10 @@ line-height: 24px;
     .left-blog .button{
         margin-left: 97px;
     }    
-
-
-   
-
     .landing-photo img{
         width: 257px;
         height: 257px;
+        padding-right: 40px;
     }
     .product-section{
         display: flex;
@@ -231,6 +233,13 @@ line-height: 24px;
         display: flex;
         flex-direction: column;
     }
+    .premium-membership{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
     footer{
         width: 100%;
     }
@@ -308,11 +317,18 @@ line-height: 24px;
         align-items: center;
         justify-content: right;   
         }
+
         .product-section{
             width: 100%;
             display: flex;
             flex-direction: column;
         }
+        .premium-membership{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    
         footer{
             width: 100%;
         }
