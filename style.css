@@ -78,14 +78,19 @@ margin: 0 auto;
     gap: 40px;
 }
 .product{
-    /* width: 329px; */
+    width: 329px;
 
-/* height: 476px; */
+height: 476px;
 border-radius: 7px;
-box-shadow: 0 5px 5px rgba(0,0 ,0 ,.2 );
+background-color: whitesmoke;
+box-shadow: 0 10px 10px rgba(0,0 ,0 ,.2 );
 
 }
-
+ .products .product img{
+    width: 300px;
+height: 256px;
+align-items: center;
+}
 
 .product p{
     line-height: .5;
