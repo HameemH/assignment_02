@@ -56,9 +56,7 @@ height: 44px;
 outline: 0;
 border: 0;
 }
-.fas{
-    padding-left: 10px;
-}
+
 /* product section styles */
 .product-section{
     width: 1047px;
@@ -95,7 +93,14 @@ align-items: center;
 .product p{
     line-height: .5;
 }
-
+.see-more{
+    width: 1047px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
 /* footer styles */
 footer{
     max-width: 100%;
@@ -122,4 +127,78 @@ footer{
 }
 .fab{
     margin-right: 5px;
+}
+
+
+/* media queries for mobile devices */
+@media only screen and (max-width:688px) {
+body{
+    width: 100%;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.nav-bar{
+    width: 100%;
+    justify-content: center;
+
+}
+.nav-heading h2{
+    font-size: 16px;
+line-height: 24px;
+
+}
+    .landing-page{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .left-blog{
+        width: 100%;
+    }
+    .left-blog{
+        margin-left: -71px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  
+    }
+    .left-blog h1{
+        font-weight: bold;
+    font-size:28px;
+    line-height: 42px;
+    }
+    .left-blog p{
+        font-size: 10px;
+    line-height: 19px;
+    }
+   
+
+    .landing-photo img{
+        width: 257px;
+        height: 257px;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .see-more{
+        width: 100%;  
+        height: 40px;
+        display: flex;
+    align-items: center;
+    justify-content: right;   
+    }
+    .product-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        width: 100%;
+    }
 }
