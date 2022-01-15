@@ -45,16 +45,16 @@ line-height: 24px;
 }
 .landing-photo img{
     width: 440px;
-height: 414px;
+    height: 414px;
 }
 .button{
     background-color: #E02C6D;
     color: whitesmoke;
     border-radius: 40px;
     width: 196px;
-height: 44px;
-outline: 0;
-border: 0;
+    height: 44px;
+    outline: 0;
+    border: 0;
 }
 
 /* product section styles */
@@ -63,8 +63,7 @@ border: 0;
     grid-gap: 13px;
     padding-bottom: 19px;
     margin-bottom: 20px;
-
-margin: 0 auto;
+    margin: 0 auto;
 }
 .section-title{
     text-align: center;
@@ -77,25 +76,23 @@ margin: 0 auto;
 }
 .product{
     width: 329px;
-
-height: 476px;
-padding: 5px;
-border-radius: 7px;
-background-color: whitesmoke;
-
-
-box-shadow: 0 10px 10px rgba(0,0 ,0 ,.2 );
+    height: 476px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: whitesmoke;
+    box-shadow: 0 10px 10px rgba(0,0 ,0 ,.2 );
 
 }
  .products .product img{
     width: 300px;
-height: 256px;
-align-items: center;
+    height: 256px;
+    align-items: center;
 }
 
 .product p{
     line-height: .5;
 }
+/* seemore styles */
 .see-more{
     width: 1047px;
     height: 40px;
@@ -107,13 +104,26 @@ align-items: center;
 .see-more .fas{
     margin-left: 5px;
 }
+/* membership section styles */
+.premium-membership{
+    width: 1047px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.membership-statement{
+    width: 50%;
+}
+.membership-form{
+    width: 50%;
+    align-items: center;
+}
 /* footer styles */
 footer{
     max-width: 100%;
     max-height: 500px;
     background-color: royalblue;
     margin: 0 auto;
-
     display: flex;
     align-items: center;
     justify-content: center;
